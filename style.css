@@ -1,6 +1,12 @@
+html, body {
+    height: 100vh;
+    min-height:100vh;
+}
+
 .navbar {
     padding: 0px;
     max-height: 96px;
+
 }
 
 .setfont {
@@ -9,4 +15,10 @@
 
 .makefullheight {
     height: 100%;
+   /* min-height:100vh;*/
 }
+
+.addbg {
+    background: url('./assets/images/bg.png');
+}
+
