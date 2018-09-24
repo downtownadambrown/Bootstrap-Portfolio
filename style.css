@@ -1,0 +1,12 @@
+.navbar {
+    padding: 0px;
+    max-height: 96px;
+}
+
+.setfont {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.makefullheight {
+    height: 100%;
+}
