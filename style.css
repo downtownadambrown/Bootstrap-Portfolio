@@ -1,21 +1,15 @@
-html, body {
+body {
     height: 100%;
-    min-height:100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('./assets/images/bg.png');
 }
 
 .navbar {
     padding: 0px;
-    max-height: 96px;
-
 }
 
 .setfont {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.makefullheight {
-    height: 100%;
-    min-height:100%;
 }
 
 .thumbnail {
@@ -27,17 +21,4 @@ html, body {
     top: 45%;
     left: 0;
     width: 100%;
-}
-
-.addbg {
-    background: url('./assets/images/bg.png');
-}
-
-.bigbody {
-    height: 200px;
-    rows:"10";
-    columns:"40";
-    max-width: 100%;
-    min-width: 100%;
-
 }
