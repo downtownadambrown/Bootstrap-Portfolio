@@ -32,3 +32,12 @@ html, body {
 .addbg {
     background: url('./assets/images/bg.png');
 }
+
+.bigbody {
+    height: 200px;
+    rows:"10";
+    columns:"40";
+    max-width: 100%;
+    min-width: 100%;
+
+}

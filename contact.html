@@ -11,14 +11,15 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+<body>
     <!-- BEGIN Navbar container -->
     <div class="container-fluid px-0 border-bottom">
         <div class="row justify-content-center m-0">
             <div class="col-md-9">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <!-- Navbar content -->
-                    <h1 class="navbar-brand align-middle text-align-center text-white m-0 p-4 makefullheight" style="background-color: #4aaaa5">Adam Brown</h1>
+                    <h1 class="navbar-brand align-middle text-align-center text-white m-0 p-4 makefullheight" style="background-color: #4aaaa5">Adam
+                        Brown</h1>
                     <ul class="navbar-nav ml-auto py-4 pr-4">
                         <li class="nav-item active border-right">
                             <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
@@ -45,9 +46,28 @@
         </div>
         <div class="row justify-content-center m-0">
             <div class="col-md-9 pl-4 pb-4 pr-4 bg-white">
-                
-                Contact Content
+                <!-- START the content here -->
 
+                <form>
+                    <div class="form-group">
+                        <label for="submit-name">Your name</label>
+                        <input type="text" class="form-control" id="submit-name" aria-describedby="emailHelp"
+                            placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="submit-email">Email address</label>
+                        <input type="email" class="form-control" id="submit-email" aria-describedby="emailHelp"
+                            placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="submit-msg">Message</label>
+                        <textarea type="text" name="message" id="submit-msg" class="form-control rounded-0" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary text-light" style="background-color: #4aaaa5">Submit</button>
+                </form>
+
+                <!-- END the content here -->
             </div>
         </div>
     </div>
@@ -55,7 +75,7 @@
 
     <!-- BEGIN sticky footer -->
     <footer class="container-fluid w-100 bg-secondary text-light py-3 text-center">
-            <h6 class="m-0">Copyright &copy; 2018</h6>
+        <h6 class="m-0">Copyright &copy; 2018</h6>
     </footer>
     <!-- END sticky footer -->
 </body>
