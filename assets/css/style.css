@@ -1,51 +1,59 @@
-html {
-    height:100%;
+html, body {
+    height: 100%;
 }
 
-body{
-    height:100%;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url('../images/bg.png');
+}
+
+a, .nav-item a, .nav-link {
+    color: #4aaaa5;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.nav-item.active a {
+    font-weight: bold;
+}
+
+header {
+    display: block;
 }
 
 .navbar {
     padding: 0px;
-    max-height: 96px;
 }
 
-.navbar-brand{
-    /*height:76px;*/
+.navbar-brand {
+    background-color:#4aaaa5;
+    color: white;
+    height: 88px;
+    display: block;
+    font-size: 22px;
 }
 
-li {
-    display:inline-block;   
-}
-
-h1 {
+.setfont {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+.thumbnail {
+    position: relative;
 }
 
-.makefullheight {
-    height: 100%;
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
 }
 
-@media screen and (max-width: 992px) {
-    .navbar ul{
-        display:inline-block;  
-    }
-}
+.content {
+    flex: 1 0 auto;
+  }
 
-
-@media screen and (max-width: 450) {
-    .navbar-nav{
-        margin: 0 auto;
-        display: block;
-        table-layout: fixed;
-        float: none;
-     }
-}
+  .footer {
+    flex-shrink: 0;
+  }
