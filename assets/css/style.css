@@ -52,8 +52,29 @@ header {
 
 .content {
     flex: 1 0 auto;
-  }
+}
 
-  .footer {
+.footer {
     flex-shrink: 0;
-  }
+}
+
+@media screen and (max-width:991px){
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (max-width:450px){
+    .navbar-nav{
+        width: 100%;
+        align-content: center;
+        text-align: center;
+        padding: 3px;
+    }
+    .navbar-brand{
+        width:100%;
+    }
+    
+}
